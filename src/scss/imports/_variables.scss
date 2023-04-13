@@ -1,10 +1,15 @@
 :root {
     /* Colors */
     /* Primary */
-    --light-red: hsl(0, 100%, 67%);
-    --orangey-yellow: hsl(39, 100%, 56%);
-    --green-teal: hsl(166, 100%, 37%);
-    --cobalt-blue: hsl(234, 85%, 45%);
+    --hsl-light-red: 0, 100%, 67%;
+    --hsl-orangey-yellow: 39, 100%, 56%;
+    --hsl-green-teal: 166, 100%, 37%;
+    --hsl-cobalt-blue: 234, 85%, 45%;
+
+    --light-red: hsl(var(--hsl-light-red));
+    --orangey-yellow: hsl(var(--hsl-orangey-yellow));
+    --green-teal: hsl(var(--hsl-green-teal));
+    --cobalt-blue: hsl(var(--hsl-cobalt-blue));
 
     /* Neutral */
     --pale-blue: hsl(221, 100%, 96%);
@@ -19,12 +24,12 @@
 
     /* Gradients */
     --bg-gradient: linear-gradient(
-        90deg,
+        180deg,
         var(--light-slate-blue) 0%,
         var(--light-royal-blue) 100%
     );
     --circle-gradient: linear-gradient(
-        90deg,
+        180deg,
         var(--violet-blue) 0%,
         var(--persian-blue) 100%
     );

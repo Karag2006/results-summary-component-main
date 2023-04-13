@@ -7,7 +7,7 @@ const Result = () => {
             <h2>Your Result</h2>
             <Circle />
             <h2 className='result--gratulation'>Great</h2>
-            <p></p>
+            <p>You scored hoght than 65% of the people who have taken these tests.</p>
         </section>
     )
 }

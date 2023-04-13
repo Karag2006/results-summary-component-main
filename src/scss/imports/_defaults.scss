@@ -8,7 +8,7 @@
 :root {
     --font-family: "Hanken Grotesk", sans-serif;
 
-    --font-color: var(--pale-blue);
+    --font-color: var(--light-lavender);
     --error-color: var(--light-red);
     --background-color: white;
 }
@@ -50,6 +50,7 @@ footer {
     font-size: 11px;
     text-align: center;
     font-weight: 500;
+    color: hsla(0, 0%, 0%, 0.5);
 }
 footer a {
     color: hsl(228, 45%, 44%);

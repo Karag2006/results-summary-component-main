@@ -6,7 +6,9 @@ const Summary = () => {
     return (
         <section className='summary'>
             <h2 className="summary--headline">Summary</h2>
-            {data.map(category => (<ResultCategory data={category} key={category.category} />))}
+            <div className="summary--categories">
+                {data.map(category => (<ResultCategory data={category} key={category.category} />))}
+            </div>
             <button className="continue">Continue</button>
         </section> 
   )
