@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/age-calculator-app-9Eg--l5q8Q)
+-   Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/result-summary-component-with-react-and-scss-t13LVXO5nQ)
 -   Live Site URL: [Live Application](https://results-summary-component-mr.netlify.app)
 
 ## My process
