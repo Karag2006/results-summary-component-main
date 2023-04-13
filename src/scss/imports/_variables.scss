@@ -1,16 +1,26 @@
 :root {
-    --font-family: "Hanken Grotesk", sans-serif;
-    --off-white: hsl(0, 0%, 94%);
-    --light-gray: hsl(0, 0%, 86%);
-    --smokey-gray: hsl(0, 1%, 44%);
-    --off-black: hsl(0, 0%, 8%);
-    --purple: hsl(259, 100%, 65%);
     --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
 
-    --gray-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
 
-    --font-color: var(--smokey-gray);
-    --error-color: var(--light-red);
-    --background-color: var(--off-white);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+
+    --bg-gradient: linear-gradient(
+        90deg,
+        var(--light-slate-blue) 0%,
+        var(--light-royal-blue) 100%
+    );
+    --circle-gradient: linear-gradient(
+        90deg,
+        var(--violet-blue) 0%,
+        var(--persian-blue) 100%
+    );
 }

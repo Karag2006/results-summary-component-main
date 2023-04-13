@@ -5,6 +5,14 @@
     font-display: swap;
 }
 
+:root {
+    --font-family: "Hanken Grotesk", sans-serif;
+
+    --font-color: var(--pale-blue);
+    --error-color: var(--light-red);
+    --background-color: white;
+}
+
 *,
 *::before,
 *::after {
