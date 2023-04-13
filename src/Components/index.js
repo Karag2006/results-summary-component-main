@@ -1,0 +1,5 @@
+export {default as Footer} from './Footer.jsx'
+export {default as Result} from './Result.jsx'
+export {default as Summary} from './Summary.jsx'
+export {default as Circle} from './Circle.jsx'
+export {default as ResultCategory} from './ResultCategory.jsx'

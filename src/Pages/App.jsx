@@ -1,8 +1,13 @@
 import React from 'react'
+import {Result, Summary} from '../Components'
+
 
 const App = () => {
   return (
-    <main>App</main>        
+    <main>
+        <Result />
+        <Summary />
+    </main>        
   )
 }
 
